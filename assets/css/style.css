@@ -15,6 +15,9 @@ body{
 .font-size-22{
     font-size: 22px;
 }
+.font-size-46{
+    font-size: 46px;
+}
 
 
 .bs-button-bg{
@@ -47,6 +50,9 @@ h1,h2,h3,h4,h5,h6{
 }
 .bs-button{
     @apply bs-dark-green-bg text-white rounded-full p-6 py-2 inline-block
+}
+.bs-white-btn{
+    @apply bg-white bs-dark-orange-color rounded-full p-6 py-2 inline-block
 }
 
 .hero-slide ul.slick-dots {
@@ -101,4 +107,11 @@ h1,h2,h3,h4,h5,h6{
 
 .category-carousel > svg:last-child {
   right: 0;
+}
+
+.promo-bg-1{
+    background-image: url("../img/promo-bg-1.png");
+}
+.promo-bg-2{
+    background-image: url("../img/promo-bg-2.png");
 }

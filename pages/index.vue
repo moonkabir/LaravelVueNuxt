@@ -53,9 +53,7 @@
 				<div class="flex items-center mb-10">
 					<div style="height:3px" class="w-32 bs-dark-green-bg"></div>
 					<div style="height:2px" class="w-full bg-gray-200"></div>
-				</div>
-
-				
+				</div>				
 				<vue-slick-carousel class="category-carousel mb-10" v-bind="CategoryCaroselSettings">
 					<div class="bg-gray-200 p-4 mx-4">
 						<div class="h-32 flex justify-center items-center">
@@ -111,10 +109,27 @@
 							<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
 						</svg>
 					</template>
-
-
-
 				</vue-slick-carousel>
+				<div class="flex -mx-6">
+					<div class="w-1/2 px-6">
+						<div class="promo-bg-1 bg-cover bg-gray-500 bg-center p-12 rounded">
+							<div class="w-2/3">
+								<p class="bs-dark-orange-color text-2xl mb-6">Buy 1 Get 1</p>
+								<h3 class="font-bold font-size-46 mb-8 leading-tight">Fresh Fruits collection</h3>
+								<nuxt-link to="/" class="bs-white-btn">Order Now</nuxt-link>
+							</div>
+						</div>
+					</div>
+					<div class="w-1/2 px-6">
+						<div class="promo-bg-2 bg-cover bg-gray-500 bg-center p-12 rounded">
+							<div class="w-2/3">
+								<p class="bs-dark-orange-color text-2xl mb-6">Buy 1 Get 1</p>
+								<h3 class="font-bold font-size-46 mb-8 leading-tight">Fresh Fruits collection</h3>
+								<nuxt-link to="/" class="bs-white-btn">Order Now</nuxt-link>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
