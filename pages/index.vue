@@ -215,6 +215,43 @@
 						</svg>
 					</template>
 				</vue-slick-carousel>
+				<div class="flex -mx-6 mb-12">
+					<div class="w-1/3 px-6">
+						<div class="cta-1 flex p-6 rounded-xl">
+						<div class="w/1-2">
+							<h3 class="font-size-32 leading-tight font-semibold mb-10">Fresh Fruits Collection</h3>
+							<nuxt-link to="/" class="h-12 w-12 flex justify-center items-center rounded-full bg-white inline-block"><img src="~/assets/img/arrow-right.png" alt=""></nuxt-link>
+						</div>
+						<div class="w-1/2 flex justify-end">
+							<img src="~/assets/img/fresh-fruit.png" alt="">
+						</div>
+						</div>
+					</div>
+
+					<div class="w-1/3 px-6">
+						<div class="cta-2 flex p-6 rounded-xl">
+						<div class="w/1-2">
+							<h3 class="font-size-32 leading-tight font-semibold mb-10">Vegetable Collection</h3>
+							<nuxt-link to="/" class="h-12 w-12 flex justify-center items-center rounded-full bg-white inline-block"><img src="~/assets/img/arrow-right.png" alt=""></nuxt-link>
+						</div>
+						<div class="w-1/2 flex justify-end">
+							<img src="~/assets/img/vegetable-collection.png" alt="">
+						</div>
+						</div>
+					</div>
+
+					<div class="w-1/3 px-6">
+						<div class="cta-3 flex p-6 rounded-xl">
+						<div class="w/1-2">
+							<h3 class="font-size-32 leading-tight font-semibold mb-10">Grocery Items</h3>
+							<nuxt-link to="/" class="h-12 w-12 flex justify-center items-center rounded-full bg-white inline-block"><img src="~/assets/img/arrow-right.png" alt=""></nuxt-link>
+						</div>
+						<div class="w-1/2 flex justify-end">
+							<img class="h-40" src="~/assets/img/grocery-items.png" alt="">
+						</div>
+						</div>
+					</div>
+				</div>
 
 
 
