@@ -115,3 +115,19 @@ h1,h2,h3,h4,h5,h6{
 .promo-bg-2{
     background-image: url("../img/promo-bg-2.png");
 }
+
+.category-carousel img {
+    max-height: 100%;
+}
+
+.cta-1 {background-color: #fff0dc;}
+.cta-2 {background-color: #ddf1d6;}
+.cta-3 {background-color: #ffebb7;}
+
+.product-img-hover {
+    display: none;
+}
+
+.single-bs-product:hover .product-img-hover {
+    display: flex;
+}
