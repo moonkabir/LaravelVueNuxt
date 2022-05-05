@@ -5,7 +5,13 @@
                 <Sidebar/>
             </div>
             <div class="w-3/4">
-                <div class="h-60 bg-gray-50 mb-6"></div>
+                <div class="h-60 bg-gray-50 mb-6 relative">
+                    <img src="~/assets/img/category-hero-bg.png" alt="">
+                    <div class="absolute top-20 left-20 ">
+                        <p class="bs-dark-orange-color text-xl mb-2">Buy 1 Get 1</p>
+                        <p class="bs-dark-green-color text-3xl font-bold">Up to 30% Discount <br> on Selected Items</p>
+                    </div>
+                </div>
                 <div class="flex justify-between items-center mb-8">
                     <h3 class="text-3xl">Category heading</h3>
                     <div class="min-w-max flex items-center">

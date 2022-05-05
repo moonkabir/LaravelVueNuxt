@@ -134,7 +134,7 @@
 					<div style="height: 2px" class="w-full bg-gray-200"></div>
 				</div>
 				<vue-slick-carousel class="category-carousel mb-16 text-center" v-bind="productCarouselSettings">
-					<SingleProductBox v-for="item in 10" :product="item" />
+					<SingleProductBox v-for="item in 10" :key="item" :product="item"/>
 					
 					<template #prevArrow="arrowOption">
 						<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
