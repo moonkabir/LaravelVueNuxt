@@ -14,15 +14,17 @@
 						</button>
 					</div>
 				</div>
+
 				<div class="min-w-max flex items-center">
 					<nuxt-link to="/"><span class="bs-icon-box rounded-full hover:bg-gray-200 inline-block flex items-center justify-center"><img src="~/assets/img/heart.png" alt=""></span></nuxt-link>
 					<nuxt-link to="/" class="relative mx-4"><span class="bs-icon-box rounded-full hover:bg-gray-200 inline-block flex items-center justify-center"><img src="~/assets/img/u_shopping-bag.png" alt=""></span><span class="absolute bg-red-600 w-4 h-4 top-0 right-0 rounded-full text-xs flex items-center justify-center">0</span></nuxt-link>
 					<nuxt-link to="/" class="flex items-center"><span class="bs-icon-box rounded-full hover:bg-gray-200 inline-block flex items-center justify-center"><img src="~/assets/img/user.png" alt=""></span><span>Account</span></nuxt-link>
 				</div>
 			</div>
+
 			<div class="flex items-center">
-				<div class="w-96">
-					<div class="bs-dark-green-bg flex rounded-full px-4 py-2 cursor-pointer">
+				<div v-click-outside="menuClose" class="w-96 relative">
+					<div @click.prevent="menuClick" class="bs-dark-green-bg relative z-20 flex rounded-full px-4 py-2 cursor-pointer">
 						<div class="min-w-max">
 							<img src="~/assets/img/menu-right.png" alt="">
 						</div>
@@ -30,6 +32,19 @@
 						<div class="min-w-max">						
 							<img src="~/assets/img/chevron-down.png" alt="">
 						</div>
+					</div>
+					<div v-bind:class="allCategoryMenu ? 'block visible' : 'hidden invisible'" class="absolute bs-dark-green-bg z-10 w-full -mt-5 pt-6 pb-4 rounded-b-2xl">
+						<ul>
+							<li><nuxt-link class="block text-white py-2 px-4" to="/">Fruits</nuxt-link></li>
+							<li><nuxt-link class="block text-white py-2 px-4" to="/">Vegetable</nuxt-link></li>
+							<li><nuxt-link class="block text-white py-2 px-4" to="/">Lorem Ipsum Categories</nuxt-link></li>
+							<li><nuxt-link class="block text-white py-2 px-4" to="/">Lorem Ipsum Categories</nuxt-link></li>
+							<li><nuxt-link class="block text-white py-2 px-4" to="/">Lorem Ipsum Categories</nuxt-link></li>
+							<li><nuxt-link class="block text-white py-2 px-4" to="/">Lorem Ipsum Categories</nuxt-link></li>
+							<li><nuxt-link class="block text-white py-2 px-4" to="/">Lorem Ipsum Categories</nuxt-link></li>
+							<li><nuxt-link class="block text-white py-2 px-4" to="/">Lorem Ipsum Categories</nuxt-link></li>
+							<li><nuxt-link class="block text-white py-2 px-4" to="/">Lorem Ipsum Categories</nuxt-link></li>
+						</ul>
 					</div>
 				</div>
 				<div class="w-full">
@@ -51,8 +66,23 @@
 </template>
 
 <script>
+// import Logo from "./logo"
 export default {
 	name: 'Header',
+	// components: {Logo},
+	data() {
+		return {
+			allCategoryMenu: false
+		}
+	},
+	methods: {
+		menuClick(){
+			this.allCategoryMenu = !this.allCategoryMenu;
+		},
+		menuClose() {
+			this.allCategoryMenu = false
+		}
+	}
 }
 </script>
 
