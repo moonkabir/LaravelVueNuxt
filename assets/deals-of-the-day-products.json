@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "name" : "A single Product",
+        "price" : 10,
+        "sale" : 8,
+        "image" : "https://picsum.photos/200/300",
+        "sku" : "JHJJDMBYGDH67",
+        "categories" : [
+            {
+                "name": "Fruits"
+            },
+            {
+                "name": "Vegetables"
+            },
+            {
+                "name": "Others"
+            }
+        ],
+        "tags" : [
+            {
+                "name": "Tag1"
+            },
+            {
+                "name": "Tag2"
+            },
+            {
+                "name": "Tag3"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name" : "A single Product 2",
+        "price" : 10,
+        "sale" : 8,
+        "image" : "https://picsum.photos/200/300",
+        "sku" : "JHJJDMBYGDH67",
+        "categories" : [
+            {
+                "name": "Fruits"
+            },
+            {
+                "name": "Vegetables"
+            },
+            {
+                "name": "Others"
+            }
+        ],
+        "tags" : [
+            {
+                "name": "Tag1"
+            },
+            {
+                "name": "Tag2"
+            },
+            {
+                "name": "Tag3"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name" : "A single Product 3",
+        "price" : 10,
+        "sale" : 8,
+        "image" : "https://picsum.photos/200/300",
+        "sku" : "JHJJDMBYGDH67",
+        "categories" : [
+            {
+                "name": "Fruits"
+            },
+            {
+                "name": "Vegetables"
+            },
+            {
+                "name": "Others"
+            }
+        ],
+        "tags" : [
+            {
+                "name": "Tag1"
+            },
+            {
+                "name": "Tag2"
+            },
+            {
+                "name": "Tag3"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name" : "A single Product 4",
+        "price" : 10,
+        "sale" : 8,
+        "image" : "https://picsum.photos/200/300",
+        "sku" : "JHJJDMBYGDH67",
+        "categories" : [
+            {
+                "name": "Fruits"
+            },
+            {
+                "name": "Vegetables"
+            },
+            {
+                "name": "Others"
+            }
+        ],
+        "tags" : [
+            {
+                "name": "Tag1"
+            },
+            {
+                "name": "Tag2"
+            },
+            {
+                "name": "Tag3"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name" : "A single Product 5",
+        "price" : 10,
+        "sale" : 8,
+        "image" : "https://picsum.photos/200/300",
+        "sku" : "JHJJDMBYGDH67",
+        "categories" : [
+            {
+                "name": "Fruits"
+            },
+            {
+                "name": "Vegetables"
+            },
+            {
+                "name": "Others"
+            }
+        ],
+        "tags" : [
+            {
+                "name": "Tag1"
+            },
+            {
+                "name": "Tag2"
+            },
+            {
+                "name": "Tag3"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name" : "A single Product 6",
+        "price" : 10,
+        "sale" : 8,
+        "image" : "https://picsum.photos/200/300",
+        "sku" : "JHJJDMBYGDH67",
+        "categories" : [
+            {
+                "name": "Fruits"
+            },
+            {
+                "name": "Vegetables"
+            },
+            {
+                "name": "Others"
+            }
+        ],
+        "tags" : [
+            {
+                "name": "Tag1"
+            },
+            {
+                "name": "Tag2"
+            },
+            {
+                "name": "Tag3"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name" : "A single Product 7",
+        "price" : 10,
+        "sale" : 8,
+        "image" : "https://picsum.photos/200/300",
+        "sku" : "JHJJDMBYGDH67",
+        "categories" : [
+            {
+                "name": "Fruits"
+            },
+            {
+                "name": "Vegetables"
+            },
+            {
+                "name": "Others"
+            }
+        ],
+        "tags" : [
+            {
+                "name": "Tag1"
+            },
+            {
+                "name": "Tag2"
+            },
+            {
+                "name": "Tag3"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name" : "A single Product 8",
+        "price" : 10,
+        "sale" : 8,
+        "image" : "https://picsum.photos/200/300",
+        "sku" : "JHJJDMBYGDH67",
+        "categories" : [
+            {
+                "name": "Fruits"
+            },
+            {
+                "name": "Vegetables"
+            },
+            {
+                "name": "Others"
+            }
+        ],
+        "tags" : [
+            {
+                "name": "Tag1"
+            },
+            {
+                "name": "Tag2"
+            },
+            {
+                "name": "Tag3"
+            }
+        ]
+    }
+]
